@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package balancer;
 
-//путь к проекту
+//путь к проекту 
 option go_package = "proto/package/balancer";
 
 service Balancer {
