@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"sync/atomic"
 
-	pb "VideoBalancer/balancer/proto/package/balancer" // Обновите путь до сгенерированного proto
+	pb "VideoBalancer/balancer/proto/package/balancer"
 	"google.golang.org/grpc"
 	_ "google.golang.org/grpc/reflection"
 )
