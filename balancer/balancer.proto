@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package balancer;
 
-// Замените путь "path/to/your/proto/package" на фактический путь к вашему пакету
 option go_package = "proto/package/balancer";
 
 service Balancer {
