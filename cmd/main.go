@@ -70,6 +70,7 @@ func main() {
 	cdnHost := os.Getenv("CDN_HOST")
 	cdnHost = "storage.googleapis.com"
 	if cdnHost == "" {
+		cdnHost = ""
 		log.Printf("CDN_HOST environment variable is not set. Using default CDN host: storage.googleapis.com")
 	} else {
 		log.Printf("Using CDN host: %s", cdnHost)
